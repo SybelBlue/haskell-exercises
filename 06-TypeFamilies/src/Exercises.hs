@@ -349,5 +349,5 @@ type family ModClock (n :: Nat) (clock :: Nat) (x :: Nat) :: Bool where
 
 -- | c. Why is this such hard work?
 
--- | no lets, no pattern-matching, no gaurding
+-- | no lets, no case/if, no guarding
 -- no higher order funcs.
